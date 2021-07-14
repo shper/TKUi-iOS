@@ -1,0 +1,23 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'iOS_Module_Scaffold_Example' do
+  
+  pod 'iOS_Module_Scaffold', :path => '../'
+  
+  pod 'TKLogger'
+  
+  pod 'SnapKit',        '~>5.0.1'
+  pod 'MBProgressHUD',  '~>1.2.0'
+  pod 'Moya',           '~>13.0.1'
+
+#  target 'iOS_Module_Scaffold_Tests' do
+#    inherit! :search_paths
+#
+#    pod 'Quick', '~> 2.2.0'
+#    pod 'Nimble', '~> 8.0.7'
+#    pod 'FBSnapshotTestCase' , '~> 2.1.4'
+#    pod 'Nimble-Snapshots' , '~> 8.0.0'
+#  end
+end

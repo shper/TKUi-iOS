@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/shper/TKUi_iOS'
+  s.homepage         = 'https://github.com/shper/TKUi-iOS'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'shper' => 'me@shper.cn' }
-  s.source           = { :git => 'https://github.com/shper/TKUi_iOS.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/shper/TKUi-iOS.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '10.0'

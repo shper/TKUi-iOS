@@ -7,12 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5FF24815CDF85404E1FCCCA6 /* Pods_iOS_Module_Scaffold_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58824B0BFF2E39AB2535E8C4 /* Pods_iOS_Module_Scaffold_Example.framework */; };
+		5FF24815CDF85404E1FCCCA6 /* Pods_TKUi_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 58824B0BFF2E39AB2535E8C4 /* Pods_TKUi_Example.framework */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
 		DD8A9099269E8E5D00F75D00 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD8A9097269E8E5D00F75D00 /* LaunchScreen.storyboard */; };
 		DD8A909D269E90F100F75D00 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD8A909C269E90F100F75D00 /* RootViewController.swift */; };
+		DD8A90A426A1766E00F75D00 /* TtitleBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD8A90A326A1766E00F75D00 /* TtitleBarViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -21,25 +22,26 @@
 			containerPortal = 607FACC81AFB9204008FA782 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 607FACCF1AFB9204008FA782;
-			remoteInfo = iOS_Module_Scaffold;
+			remoteInfo = TKUi;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		2A525D17789A899A1D0E28F2 /* Pods-iOS_Module_Scaffold_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS_Module_Scaffold_Example.release.xcconfig"; path = "Target Support Files/Pods-iOS_Module_Scaffold_Example/Pods-iOS_Module_Scaffold_Example.release.xcconfig"; sourceTree = "<group>"; };
-		4124E39477B2AA21F9792F82 /* iOS_Module_Scaffold.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = iOS_Module_Scaffold.podspec; path = ../iOS_Module_Scaffold.podspec; sourceTree = "<group>"; };
-		58824B0BFF2E39AB2535E8C4 /* Pods_iOS_Module_Scaffold_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iOS_Module_Scaffold_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		607FACD01AFB9204008FA782 /* iOS_Module_Scaffold_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOS_Module_Scaffold_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A525D17789A899A1D0E28F2 /* Pods-TKUi_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TKUi_Example.release.xcconfig"; path = "Target Support Files/Pods-TKUi_Example/Pods-TKUi_Example.release.xcconfig"; sourceTree = "<group>"; };
+		4124E39477B2AA21F9792F82 /* TKUi.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = TKUi.podspec; path = ../TKUi.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		58824B0BFF2E39AB2535E8C4 /* Pods_TKUi_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TKUi_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		607FACD01AFB9204008FA782 /* TKUi_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TKUi_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACD51AFB9204008FA782 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		607FACDC1AFB9204008FA782 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		607FACE51AFB9204008FA782 /* iOS_Module_Scaffold_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOS_Module_Scaffold_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		607FACE51AFB9204008FA782 /* TKUi_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TKUi_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		B3B69464E0D7222CADB40392 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		B730CA17168A578761AC7139 /* Pods-iOS_Module_Scaffold_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOS_Module_Scaffold_Example.debug.xcconfig"; path = "Target Support Files/Pods-iOS_Module_Scaffold_Example/Pods-iOS_Module_Scaffold_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		B730CA17168A578761AC7139 /* Pods-TKUi_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TKUi_Example.debug.xcconfig"; path = "Target Support Files/Pods-TKUi_Example/Pods-TKUi_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		DD8A9098269E8E5D00F75D00 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DD8A909C269E90F100F75D00 /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
+		DD8A90A326A1766E00F75D00 /* TtitleBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TtitleBarViewController.swift; sourceTree = "<group>"; };
 		EF8F69C798BC8E625550B13A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -48,7 +50,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5FF24815CDF85404E1FCCCA6 /* Pods_iOS_Module_Scaffold_Example.framework in Frameworks */,
+				5FF24815CDF85404E1FCCCA6 /* Pods_TKUi_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,7 +68,7 @@
 			isa = PBXGroup;
 			children = (
 				607FACF51AFB993E008FA782 /* Podspec Metadata */,
-				607FACD21AFB9204008FA782 /* Example for iOS_Module_Scaffold */,
+				607FACD21AFB9204008FA782 /* Example for TKUi */,
 				607FACE81AFB9204008FA782 /* Tests */,
 				607FACD11AFB9204008FA782 /* Products */,
 				72BB71CA4DA938289293B678 /* Pods */,
@@ -77,13 +79,13 @@
 		607FACD11AFB9204008FA782 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				607FACD01AFB9204008FA782 /* iOS_Module_Scaffold_Example.app */,
-				607FACE51AFB9204008FA782 /* iOS_Module_Scaffold_Tests.xctest */,
+				607FACD01AFB9204008FA782 /* TKUi_Example.app */,
+				607FACE51AFB9204008FA782 /* TKUi_Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		607FACD21AFB9204008FA782 /* Example for iOS_Module_Scaffold */ = {
+		607FACD21AFB9204008FA782 /* Example for TKUi */ = {
 			isa = PBXGroup;
 			children = (
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
@@ -91,8 +93,8 @@
 				DD8A9097269E8E5D00F75D00 /* LaunchScreen.storyboard */,
 				607FACD31AFB9204008FA782 /* Supporting Files */,
 			);
-			name = "Example for iOS_Module_Scaffold";
-			path = iOS_Module_Scaffold;
+			name = "Example for TKUi";
+			path = TKUi;
 			sourceTree = "<group>";
 		};
 		607FACD31AFB9204008FA782 /* Supporting Files */ = {
@@ -123,7 +125,7 @@
 		607FACF51AFB993E008FA782 /* Podspec Metadata */ = {
 			isa = PBXGroup;
 			children = (
-				4124E39477B2AA21F9792F82 /* iOS_Module_Scaffold.podspec */,
+				4124E39477B2AA21F9792F82 /* TKUi.podspec */,
 				EF8F69C798BC8E625550B13A /* README.md */,
 				B3B69464E0D7222CADB40392 /* LICENSE */,
 			);
@@ -133,8 +135,8 @@
 		72BB71CA4DA938289293B678 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				B730CA17168A578761AC7139 /* Pods-iOS_Module_Scaffold_Example.debug.xcconfig */,
-				2A525D17789A899A1D0E28F2 /* Pods-iOS_Module_Scaffold_Example.release.xcconfig */,
+				B730CA17168A578761AC7139 /* Pods-TKUi_Example.debug.xcconfig */,
+				2A525D17789A899A1D0E28F2 /* Pods-TKUi_Example.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -142,7 +144,7 @@
 		9D51FC9CFF5E0C3F7374CA18 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				58824B0BFF2E39AB2535E8C4 /* Pods_iOS_Module_Scaffold_Example.framework */,
+				58824B0BFF2E39AB2535E8C4 /* Pods_TKUi_Example.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -152,6 +154,7 @@
 			children = (
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				DD8A909C269E90F100F75D00 /* RootViewController.swift */,
+				DD8A90A326A1766E00F75D00 /* TtitleBarViewController.swift */,
 			);
 			path = Source;
 			sourceTree = "<group>";
@@ -159,9 +162,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		607FACCF1AFB9204008FA782 /* iOS_Module_Scaffold_Example */ = {
+		607FACCF1AFB9204008FA782 /* TKUi_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 607FACEF1AFB9204008FA782 /* Build configuration list for PBXNativeTarget "iOS_Module_Scaffold_Example" */;
+			buildConfigurationList = 607FACEF1AFB9204008FA782 /* Build configuration list for PBXNativeTarget "TKUi_Example" */;
 			buildPhases = (
 				6C50CC8BF5380990CB94F089 /* [CP] Check Pods Manifest.lock */,
 				607FACCC1AFB9204008FA782 /* Sources */,
@@ -173,14 +176,14 @@
 			);
 			dependencies = (
 			);
-			name = iOS_Module_Scaffold_Example;
-			productName = iOS_Module_Scaffold;
-			productReference = 607FACD01AFB9204008FA782 /* iOS_Module_Scaffold_Example.app */;
+			name = TKUi_Example;
+			productName = TKUi;
+			productReference = 607FACD01AFB9204008FA782 /* TKUi_Example.app */;
 			productType = "com.apple.product-type.application";
 		};
-		607FACE41AFB9204008FA782 /* iOS_Module_Scaffold_Tests */ = {
+		607FACE41AFB9204008FA782 /* TKUi_Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 607FACF21AFB9204008FA782 /* Build configuration list for PBXNativeTarget "iOS_Module_Scaffold_Tests" */;
+			buildConfigurationList = 607FACF21AFB9204008FA782 /* Build configuration list for PBXNativeTarget "TKUi_Tests" */;
 			buildPhases = (
 				607FACE11AFB9204008FA782 /* Sources */,
 				607FACE21AFB9204008FA782 /* Frameworks */,
@@ -191,9 +194,9 @@
 			dependencies = (
 				607FACE71AFB9204008FA782 /* PBXTargetDependency */,
 			);
-			name = iOS_Module_Scaffold_Tests;
+			name = TKUi_Tests;
 			productName = Tests;
-			productReference = 607FACE51AFB9204008FA782 /* iOS_Module_Scaffold_Tests.xctest */;
+			productReference = 607FACE51AFB9204008FA782 /* TKUi_Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -218,7 +221,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 607FACCB1AFB9204008FA782 /* Build configuration list for PBXProject "iOS_Module_Scaffold" */;
+			buildConfigurationList = 607FACCB1AFB9204008FA782 /* Build configuration list for PBXProject "TKUi" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -232,8 +235,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				607FACCF1AFB9204008FA782 /* iOS_Module_Scaffold_Example */,
-				607FACE41AFB9204008FA782 /* iOS_Module_Scaffold_Tests */,
+				607FACCF1AFB9204008FA782 /* TKUi_Example */,
+				607FACE41AFB9204008FA782 /* TKUi_Tests */,
 			);
 		};
 /* End PBXProject section */
@@ -273,7 +276,7 @@
 			outputFileListPaths = (
 			);
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-iOS_Module_Scaffold_Example-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-TKUi_Example-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -286,14 +289,14 @@
 			files = (
 			);
 			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-iOS_Module_Scaffold_Example/Pods-iOS_Module_Scaffold_Example-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-TKUi_Example/Pods-TKUi_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
 				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
 				"${BUILT_PRODUCTS_DIR}/Moya/Moya.framework",
 				"${BUILT_PRODUCTS_DIR}/Result/Result.framework",
 				"${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework",
 				"${BUILT_PRODUCTS_DIR}/TKLogger/TKLogger.framework",
-				"${BUILT_PRODUCTS_DIR}/iOS_Module_Scaffold/iOS_Module_Scaffold.framework",
+				"${BUILT_PRODUCTS_DIR}/TKUi/TKUi.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
@@ -303,11 +306,11 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Result.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SnapKit.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TKLogger.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/iOS_Module_Scaffold.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TKUi.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-iOS_Module_Scaffold_Example/Pods-iOS_Module_Scaffold_Example-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TKUi_Example/Pods-TKUi_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -317,6 +320,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD8A90A426A1766E00F75D00 /* TtitleBarViewController.swift in Sources */,
 				DD8A909D269E90F100F75D00 /* RootViewController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
 			);
@@ -335,7 +339,7 @@
 /* Begin PBXTargetDependency section */
 		607FACE71AFB9204008FA782 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 607FACCF1AFB9204008FA782 /* iOS_Module_Scaffold_Example */;
+			target = 607FACCF1AFB9204008FA782 /* TKUi_Example */;
 			targetProxy = 607FACE61AFB9204008FA782 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -453,11 +457,11 @@
 		};
 		607FACF01AFB9204008FA782 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = B730CA17168A578761AC7139 /* Pods-iOS_Module_Scaffold_Example.debug.xcconfig */;
+			baseConfigurationReference = B730CA17168A578761AC7139 /* Pods-TKUi_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 657YYCUR9D;
-				INFOPLIST_FILE = iOS_Module_Scaffold/Info.plist;
+				INFOPLIST_FILE = TKUi/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MARKETING_VERSION = 1.0.0;
@@ -471,11 +475,11 @@
 		};
 		607FACF11AFB9204008FA782 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2A525D17789A899A1D0E28F2 /* Pods-iOS_Module_Scaffold_Example.release.xcconfig */;
+			baseConfigurationReference = 2A525D17789A899A1D0E28F2 /* Pods-TKUi_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 657YYCUR9D;
-				INFOPLIST_FILE = iOS_Module_Scaffold/Info.plist;
+				INFOPLIST_FILE = TKUi/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MARKETING_VERSION = 1.0.0;
@@ -504,7 +508,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOS_Module_Scaffold_Example.app/iOS_Module_Scaffold_Example";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TKUi_Example.app/TKUi_Example";
 			};
 			name = Debug;
 		};
@@ -521,14 +525,14 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
 				SWIFT_VERSION = 4.0;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOS_Module_Scaffold_Example.app/iOS_Module_Scaffold_Example";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TKUi_Example.app/TKUi_Example";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		607FACCB1AFB9204008FA782 /* Build configuration list for PBXProject "iOS_Module_Scaffold" */ = {
+		607FACCB1AFB9204008FA782 /* Build configuration list for PBXProject "TKUi" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				607FACED1AFB9204008FA782 /* Debug */,
@@ -537,7 +541,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		607FACEF1AFB9204008FA782 /* Build configuration list for PBXNativeTarget "iOS_Module_Scaffold_Example" */ = {
+		607FACEF1AFB9204008FA782 /* Build configuration list for PBXNativeTarget "TKUi_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				607FACF01AFB9204008FA782 /* Debug */,
@@ -546,7 +550,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		607FACF21AFB9204008FA782 /* Build configuration list for PBXNativeTarget "iOS_Module_Scaffold_Tests" */ = {
+		607FACF21AFB9204008FA782 /* Build configuration list for PBXNativeTarget "TKUi_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				607FACF31AFB9204008FA782 /* Debug */,

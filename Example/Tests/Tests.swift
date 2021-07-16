@@ -2,7 +2,7 @@
 
 //import Quick
 //import Nimble
-//import iOS_Module_Scaffold
+//import TKUi
 //
 //class TableOfContentsSpec: QuickSpec {
 //    override func spec() {

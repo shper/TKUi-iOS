@@ -1,6 +1,6 @@
 //
 //  AppDelegate.swift
-//  iOS_Module_Scaffold
+//  TKUi
 //
 //  Created by Shper on 2021/07/14.
 //  Copyright © 2021 Shper. All rights reserved.
@@ -56,7 +56,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     // MARK: - Third-party SDK initialization
     
     private func setupTKLogger() {
-        TKLogger.setup(tag: "iOS_Scaffold")
+        TKLogger.setup(tag: "TKUi_Example")
         TKLogger.addDestination(TKLogConsoleDestination())
     }
 

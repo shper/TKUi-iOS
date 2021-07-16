@@ -2,9 +2,9 @@ use_frameworks!
 
 platform :ios, '10.0'
 
-target 'iOS_Module_Scaffold_Example' do
+target 'TKUi_Example' do
   
-  pod 'iOS_Module_Scaffold', :path => '../'
+  pod 'TKUi', :path => '../'
   
   pod 'TKLogger'
   
@@ -12,7 +12,7 @@ target 'iOS_Module_Scaffold_Example' do
   pod 'MBProgressHUD',  '~>1.2.0'
   pod 'Moya',           '~>13.0.1'
 
-#  target 'iOS_Module_Scaffold_Tests' do
+#  target 'TKUi_Tests' do
 #    inherit! :search_paths
 #
 #    pod 'Quick', '~> 2.2.0'
